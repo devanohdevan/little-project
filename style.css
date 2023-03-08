@@ -31,13 +31,6 @@ nav img {
   text-align: right;
 }
 
-.nav-links ul li {
-  list-style: none;
-  display: inline-block;
-  padding: 30px 50px;
-  position: relative;
-}
-
 nav a {
   color: white;
   text-decoration: none;
@@ -67,4 +60,36 @@ nav a {
 }
 .nav-links ul li a:hover::after {
   width: 100%;
+}
+.text-box {
+  width: 70%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%, -50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 40px;
+}
+.text-box p {
+  margin: 10px 0px 20px;
+  font-size: 20px;
+}
+.homeclass {
+  width: 70%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%, -50%);
+  text-align: center;
+}
+.homeclass h1 {
+  font-size: 40px;
+}
+.homeclass p {
+  margin: 10px 0px 20px;
+  font-size: 20px;
 }
