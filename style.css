@@ -71,11 +71,11 @@ nav a {
   text-align: center;
 }
 .text-box h1 {
-  font-size: 40px;
+  font-size: 45px;
 }
 .text-box p {
   margin: 10px 0px 20px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .homeclass {
   width: 70%;
@@ -107,7 +107,7 @@ nav a {
 }
 .videogames p {
   margin: 10px 0 20px;
-  font-size: 20px;
+  font-size: 30px;
 }
 .brother {
   text-align: right;
@@ -161,4 +161,16 @@ nav a {
   padding: 0px;
   display: flex;
   justify-content: space-between;
+}
+.FAMILY {
+  width: 70%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%, -50%);
+  text-align: center;
+}
+.FAMILY h1 {
+  font-size: 40px;
 }
