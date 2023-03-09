@@ -109,3 +109,14 @@ nav a {
   margin: 10px 0 20px;
   font-size: 20px;
 }
+.img {
+  width: 5%;
+  height: 5%;
+  position: absolute;
+}
+.brother {
+  text-align: right;
+}
+.brother h2 {
+  padding-right: 15.5em;
+}
