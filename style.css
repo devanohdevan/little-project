@@ -27,8 +27,8 @@ nav img {
 }
 
 .nav-links {
-  flex: 1;
-  text-align: right;
+  flex: 3;
+  text-align: center;
 }
 
 nav a {
@@ -40,7 +40,7 @@ nav a {
 .nav-links ul li {
   list-style: none;
   display: inline-block;
-  padding: 8px 12px;
+  padding: 5px 3em;
   position: relative;
 }
 
@@ -91,5 +91,21 @@ nav a {
 }
 .homeclass p {
   margin: 10px 0px 20px;
+  font-size: 20px;
+}
+.videogames {
+  width: 70%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translateY(-50%, -50%);
+  text-align: center;
+}
+.videogames h1 {
+  font-size: 3em;
+}
+.videogames p {
+  margin: 10px 0 20px;
   font-size: 20px;
 }
