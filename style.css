@@ -117,7 +117,7 @@ nav a {
 }
 
 .column {
-  float: right;
+  float: auto;
   width: 46.25%;
   padding: 0px;
 }
@@ -127,4 +127,42 @@ nav a {
   content: "";
   clear: both;
   display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 0%;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  float: auto;
+  width: 46.25%;
+  padding: 0px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.container {
+  flex: 0%;
+  padding: 0px;
+}
+* {
+  box-sizing: border-box;
 }
