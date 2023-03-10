@@ -174,3 +174,36 @@ nav a {
 .FAMILY h1 {
   font-size: 40px;
 }
+/* Default-Boxes  */
+.boxed-info {
+  background-color: #4040409d;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 95%;
+  margin: 1em;
+}
+
+.boxed-info img {
+  width: 250px;
+}
+
+.boxed-info h2 {
+  margin: 0;
+  text-decoration: underline;
+  padding-left: 1%;
+}
+.text-nfs {
+  font-size: 25px;
+  padding-left: 1%;
+}
+.text-D1 {
+  font-size: 25px;
+}
+.text-res {
+  font-size: 25px;
+  padding-left: 1%;
+}
+.text-uncharted {
+  font-size: 25px;
+}
