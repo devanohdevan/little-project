@@ -207,3 +207,12 @@ nav a {
 .text-uncharted {
   font-size: 25px;
 }
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
